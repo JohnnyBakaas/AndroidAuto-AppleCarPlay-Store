@@ -1,0 +1,12 @@
+.wrapper {
+  padding: var(--standard-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: var(--max-width);
+}
+
+.wrapper h1 {
+  font-size: 2rem;
+  text-align: center;
+}

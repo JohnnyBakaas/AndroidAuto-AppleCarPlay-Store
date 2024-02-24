@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--standard-padding);
+  background-color: var(--bc);
+  height: 5rem;
+}
+
+.header-spacer {
+  height: 5rem;
+}

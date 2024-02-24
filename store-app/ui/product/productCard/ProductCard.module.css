@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  width: calc(300px + 2rem + 10px);
+  display: flex;
+  background-color: var(--bc-soft);
+  border: var(--bc-soft-2) solid 5px;
+  border-radius: calc(var(--standard-border-radius) + 10px);
+  padding: 1rem;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: var(--standard-border-radius);
+  position: absolute;
+  transition: opacity 0.5s;
+}
+
+.img:hover {
+  opacity: 0;
+}
+
+.h2 {
+  margin-top: 320px;
+}

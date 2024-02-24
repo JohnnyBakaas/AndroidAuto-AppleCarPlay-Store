@@ -1,0 +1,43 @@
+:root {
+  --bc: white;
+  --bc-soft: #f6f5f3;
+  --bc-soft-2: #eae8e4;
+  --black: #19110b;
+  --max-width: calc(1058px + 4rem);
+  --standard-padding: 1rem 2rem;
+  --standard-border-radius: 25px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1 {
+  font-size: 2rem;
+}
+
+.flex-gap {
+  display: flex;
+  gap: 1rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.large-text {
+  font-size: 1.5rem;
+}
+
+.standard-padding {
+  padding: var(--standard-padding);
+}
